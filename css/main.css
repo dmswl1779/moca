@@ -1,0 +1,306 @@
+@charset "utf-8";
+
+#container{}
+
+/*mainSlider*/
+.mainSliderSlick{
+	background: #fff;
+	margin: 0 3%;
+}
+.mainSliderSlick .slick-arrow{
+	display: none;
+}
+.mainSliderSlick .slick-slide{
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+}
+.mainSliderSlick .slick-slide img{
+    width: 100%;
+}
+.slick-dots{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -33px;
+}
+.slick-dots li{
+	float: left;
+	margin: 0 5px;
+}
+.slick-dots button{
+	width: 10px;
+	background: transparent;
+	height: 10px;
+	border-radius: 50%;
+	text-indent: -9999px;
+	border: none;
+	font-size: 0;
+	display: block;
+	cursor:pointer;
+	display: block;
+	border: 1px solid #ccc;
+	padding: 0;
+}
+.slick-active button{
+	background:#8FB399;
+}
+.mainSlider{
+	position: relative;
+	height: 500px;
+	overflow: hidden;
+}
+.mainSlider img{
+	position: absolute;
+	left: 50%;
+	margin-left: -910px;
+}
+
+.info{
+	font-size: 14px;
+	height: 80px;
+}
+.info div{
+	float: left;
+	width: 50%;
+	padding-top: 15px;
+}
+.info dl{
+	overflow: hidden;
+}
+.info dt{
+	float: left;
+    margin-right: 80px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    letter-spacing: 5px;
+}
+.info dd{
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+.infoLine{
+	border-bottom: 1px solid #eee;
+	margin: 0 50px;
+}
+
+/*mainCon01*/
+.mainCon01{
+	background:url(../images/con01_Background.png) no-repeat center 400px;
+	padding-bottom: 200px;
+}
+.mainCon01 .inner{
+	position: relative;
+}
+.mainCon01 h2{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.mainCon01 .inner div{
+	width: 250px;
+	float: left;
+	padding-right: 80px;
+	padding-bottom: 80px;
+}
+.mainCon01 p{
+	font-size: 13px;
+}
+.mainCon01 .con01TitB{
+	font-size: 15px;
+	font-weight: 500;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.mainCon01 .con01TitT{
+	color:#fff;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.con01{
+	padding-left: 160px;
+}
+.mainCon01 .con04{
+	padding-left: 160px;
+}
+.con01 p,.con02 p,.con03 p{
+	color:#fff;
+}
+.con01moreBtn{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	bottom: 100px;
+}
+.con01 a:hover p{
+	color:#333;
+}
+.con02 a:hover p{
+	color:#333;
+}
+.con03 a:hover p{
+	color:#333;
+}
+.con04 a:hover p{
+	font-weight: bold;
+}
+.con05 a:hover p{
+	font-weight: bold;
+}
+.con06 a:hover p{
+	font-weight: bold;
+}
+/*mainCon02*/
+.mainCon02{
+	height: 500px;
+	position: relative;
+	margin-bottom: 300px;
+}
+.mainCon02 div{
+	display: inline-block;
+}
+.con02L{
+	position: absolute;
+	left: 0;
+}
+.con02L img{}
+.con02R{
+	position: absolute;
+	right: 0;
+}
+.con02R img{}
+.con02TextH2{
+	position: absolute;
+	left: 27.5%;
+	top: 20px;
+}
+.con02TextP{
+	position: absolute;
+	bottom: 0;
+	bottom: 20%;
+	width: 240px;
+	left: 31%;
+	text-align: right;
+}
+.arBtn{
+	position: absolute;
+	bottom: 20px;
+	left: 39.5%;
+}
+
+/*mainCon03*/
+.mainCon03{
+	position: relative;
+	height: 425px;
+}
+.con03{
+	position: absolute;
+	right: 0;
+}
+.con03Menu{
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 60px;
+	position: absolute;
+	top: 0;
+	top: -35px;
+	left: -25px;
+}
+
+.con03List{
+	position: absolute;
+	top: 50%;
+	left: 250px;
+	margin-top: -175px;
+}
+.con03List li{
+	font-size: 18px;
+	line-height: 70px;
+}
+.con03Num{
+	font-weight: bold;
+	font-size: 20px;
+	padding-right: 100px
+}
+.con03Menu ul li{
+	position: relative;
+	color: #333;
+	width: 
+}
+.con03Date{
+	position: absolute;
+	right: 0;
+	right:28%;
+	color:#6c6c6c;
+	font-size: 16px;
+}
+
+.con03MenuTitSub a{
+	color:#A2ADB3;
+}
+.con03MenuTit:after{
+	content: "";
+	display: block;
+	width: 220px;
+	border-bottom: 3px solid #333;
+}
+.con03List li:hover a{
+	text-decoration: underline;
+}
+
+/*mainCon04*/
+.mainCon04{
+	background: #F7F7F7;
+	margin-top: 300px;
+	margin-bottom:300px; 
+}
+.con04{}
+.con04 h2{
+	text-align: center;
+	padding-top: 50px;
+}
+.collection{
+	font-size: 0;
+	padding-bottom: 100px;
+}
+.collection li{
+	display: inline-block;
+	padding-right: 45px;
+	padding-top: 100px;
+}
+.collection li:nth-child(3n){
+	padding-right: 0;
+}
+.collection a{}
+.collection img{
+	padding-bottom: 30px;
+}
+.collection p{
+	font-size: 18px;
+	font-weight: bold;
+}
+.collection span{
+	font-weight: normal;
+	font-size: 16px;
+}
+.con04 .inner{position: relative;}
+.con04MoreBtn{
+	position: absolute;
+	right: 0;
+	bottom: 0;	
+}
+.con04 li:hover span{
+	text-decoration: underline;
+}
+.on{
+	display: none;
+}
+.snsIcon li:hover .off{
+	display: none;
+}
+.snsIcon li:hover .on{
+	display: block;
+}
